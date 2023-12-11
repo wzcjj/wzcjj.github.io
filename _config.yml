@@ -1,10 +1,10 @@
-title: Hexo
+title: 'wzcjj的个人博客'
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
-timezone: ''
+author: wzcjj
+language: zh-CN
+timezone: 'Asia/Shanghai'
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
