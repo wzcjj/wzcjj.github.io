@@ -227,7 +227,7 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: profile
         # Author name
         author: wzcjj
@@ -258,7 +258,7 @@ widgets:
         # Whether to collapse sub-headings when they are out-of-view
         collapsed: true
         # Maximum level of headings to show (1-6)
-        depth: 6
+        depth: 1
     # Recommendation links widget configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
