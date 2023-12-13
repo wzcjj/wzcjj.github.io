@@ -112,6 +112,9 @@ navbar:
         关于: /about
     # Links to be shown on the right of the navigation bar
     links:
+        # GitHub:
+        #     icon: fab fa-github
+        #     url: 'https://github.com/wzcjj'
 # Page footer configurations
 footer:
     # Copyright text
