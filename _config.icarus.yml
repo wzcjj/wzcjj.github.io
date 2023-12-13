@@ -176,7 +176,7 @@ comment:
     # data-theme: light
     # data-lang: zh-CN
     # crossorigin: anonymous
-    type: utterance
+    type: utterances
     repo: wzcjj/blogCommentByUtterance
     issue_term: pathname      # 必填项，与issue_number二选一填写
     issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
