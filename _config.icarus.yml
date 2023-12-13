@@ -163,32 +163,23 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: giscus
-    data-repo: wzcjj/wzcjj.github.io
-    data-repo-id: R_kgDOK244Vg
-    data-category: Announcements
-    data-category-id: DIC_kwDOK244Vs4CbqQD
-    data-mapping: pathname
-    data-strict: 1
-    data-reactions-enabled: 1
-    data-emit-metadata: 0
-    data-input-position: top
-    data-theme: light
-    data-lang: zh-CN
-    crossorigin: anonymous
-    # repo: wzcjj/wzcjj.github.io
-    # repo-id: R_kgDOK244Vg
-    # category: Announcements
-    # category-id: DIC_kwDOK244Vs4CbqQD
-    # strict: 1
-    # reactions-enabled: 1
-    # emit-metadata: 0
-    # input-position: top
-    # theme: light
-    # lang: zh-CN
+    # type: giscus
+    # data-repo: wzcjj/wzcjj.github.io
+    # data-repo-id: R_kgDOK244Vg
+    # data-category: Announcements
+    # data-category-id: DIC_kwDOK244Vs4CbqQD
+    # data-mapping: pathname
+    # data-strict: 1
+    # data-reactions-enabled: 1
+    # data-emit-metadata: 0
+    # data-input-position: top
+    # data-theme: light
+    # data-lang: zh-CN
     # crossorigin: anonymous
-    # issue_term: pathname      # 必填项，与issue_number二选一填写
-    # issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
+    type: utterance
+    repo: wzcjj/blogCommentByUtterance
+    issue_term: pathname      # 必填项，与issue_number二选一填写
+    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -245,24 +236,24 @@ sidebar:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: profile
-        # Author name
-        author: wzcjj
-        # Author title
-        author_title: 
-        # Author's current location
-        location: 
-        # URL or path to the avatar image
-        avatar: 
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: https://github.com/wzcjj
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: profile
+    #     # Author name
+    #     author: wzcjj
+    #     # Author title
+    #     author_title: 
+    #     # Author's current location
+    #     location: 
+    #     # URL or path to the avatar image
+    #     avatar: 
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: false
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: https://github.com/wzcjj
         # Links to be shown on the bottom of the profile widget
         # social_links:
         #     Github:
@@ -346,14 +337,14 @@ widgets:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # Enable page startup animations
-    animejs: true
+    animejs: false
     # Show the "back to top" button
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: da96256bc2857e0d48577aeb3b194ffc
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
@@ -361,7 +352,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
