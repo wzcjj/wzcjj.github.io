@@ -23,6 +23,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-icarus": "^5.3.0",
     "hexo-theme-landscape": "^1.0.0",
-    "reveal.js": "^5.0.2"
+    "reveal.js": "^5.0.4"
   }
 }
